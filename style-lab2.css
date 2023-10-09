@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Onest&display=swap');
+
+/* Resetting default styles and setting up some basic styles */
+body {
+    font-family: 'Onest', sans-serif;
+    background-color: #828382;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    font-family: 'DM Serif Display', serif;
+    background-color: #344f2b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1,h2,h3{
+    font-family: 'DM Serif Display', serif;
+}
+
+h2,h3{
+    color: #000000;
+}
+
+section{
+    color: #333;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container styles for sections */
+.container {
+    background-color: #FFF8DC;
+    max-width: 960px;
+    margin: 0 auto;
+}
