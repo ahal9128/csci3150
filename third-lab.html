@@ -1,51 +1,78 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Architect's Portfolio</title>
-    <!-- Include Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <!-- Include Google Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Link to your CSS file -->
+    <title>Tigers</title>
     <link rel="stylesheet" href="style-lab3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header Section -->
     <header>
+        <h1>Tigers</h1>
         <nav>
-            <!-- Navigation Menu -->
             <ul>
-                <li><a href="third-lab.html"></a>Home</a></li>
-                <li><a href="third-lab-about.html">About</a></li>
-                <li><a href="third-lab-portifolio.html">Portfolio</a></li>
-                <li><a href="third-lab-contact.html">Contact</a></li>
+                <li><a href="#about-tigers">About</a></li>
+                <li><a href="#about-species">Species</a></li>
+                <li><a href="contact.html">Contact</a></li> <!-- Link to the new contact page -->
             </ul>
         </nav>
     </header>
-
-    <!-- Main Content Section -->
+    <div class = "container">
     <main>
-        <section id="welcome">
-            <h1>Welcome to the Architect's Portfolio</h1>
-            <p>Discover our innovative architectural designs that inspire.</p>
-            <a href="#projects">View Projects</a>
+        <section id="about-tigers">
+            <h2>About Tigers</h2>
+            <p>Tigers are large, carnivorous mammals known for their distinctive orange fur with black stripes.</p>
         </section>
-
-        <!-- Featured Project Section -->
-        <section id="projects">
-            <h2>Featured Project</h2>
-            <div class="project">
-                <img src="project1.jpg" alt="Featured Project 1">
-                <h3>Project Name</h3>
-                <p>Description of the featured project goes here.</p>
-            </div>
+        <section id="about-species">
+            <h2>Tiger Species</h2>
+            <p>There are several species of tigers, including:</p>
+            <ul>
+                <li>Bengal Tiger</li>
+                <li>Siberian Tiger</li>
+                <li>Indochinese Tiger</li>
+            </ul>
+            <table>
+                <h3>Tiger Species Information</h3>
+                <thead>
+                    <tr>
+                        <th>Species</th>
+                        <th>Habitat</th>
+                        <th>Population</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bengal Tiger</td>
+                        <td>India</td>
+                        <td>2500</td>
+                    </tr>
+                    <tr>
+                        <td>Siberian Tiger</td>
+                        <td>Russia</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>Indochinese Tiger</td>
+                        <td>Southeast Asia</td>
+                        <td>750</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
-
-    <!-- Footer Section -->
+</div>
     <footer>
-        <p>&copy; 2023 Architect's Portfolio</p>
+        <p>&copy; 2023 Tigers Website</p>
     </footer>
 </body>
 </html>
