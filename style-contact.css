@@ -1,0 +1,70 @@
+/* Reset some default styles and provide a clean slate */
+body, h1, h2, p, ul, ol, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply the background color to the entire page */
+body {
+    background-color: #FFF8DC;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header with a background color and text color */
+header {
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style form elements */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add some spacing and style to headings and paragraphs */
+h1, h2 {
+    margin: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Style links */
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
