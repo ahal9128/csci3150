@@ -23,7 +23,7 @@ header {
     background: url("img/360_F_382718559_JuiwPGIaW00vcpawSZ8AYGgWJyc2hQUq.jpg") center center;
     background-size: cover;
     font-family: 'DM Serif Display', serif;
-    color: #fff; /* Text color for better visibility on the image */
+    color: #000000; /* Text color for better visibility on the image */
     text-align: center;
     padding: 10px;
 }
@@ -52,7 +52,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* Change link text color to white */
+    color: #000000; /* Change link text color to white */
     text-decoration: none;
 }
 
