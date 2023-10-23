@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style-lab3.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="third-lab.html">About</a></li>
+                <li><a href="third-lab.html">Species</a></li>
+                <li><a href="contact.html">Contact</a></li> <!-- Link to the new contact page -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form id="tigerForm">
+                <h2>Contact Us</h2>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required> <!-- Required input -->
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name"> <!-- Non-required input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required> <!-- Required input -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea> <!-- Required input -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tigers Website</p>
+    </footer>
+</body>
+</html>
