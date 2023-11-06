@@ -2,7 +2,7 @@
 
 :root {
     --color1: #B6ACC2;
-    --color2: #77638F;
+    --color2: #f5f5dc;
     --color3: #CFADF5;
     --color4: #432D5C;
     --color5: #200F33;
@@ -71,12 +71,12 @@ footer {
   "footy     footy     footy";
 }
 
-header {grid-area: heady; background: var(--color3);}
-nav {grid-area: navvy; background: var(--color2);}
-main {grid-area: mainy; background: var(--color4); max-height: 100%; color: beige;}
-#aside1 {grid-area: aside1; background: var(--color5); color: beige;}
-#aside2 {grid-area: aside2; background: var(--color5); color: beige;}
-footer {grid-area: footy; background: var(--color2);}
+header {grid-area: heady; background: var(--color5); color: var(--color2);}
+nav {grid-area: navvy; background: var(--color3);}
+main {grid-area: mainy; background: var(--color4); max-height: 100%; color: var(--color2);}
+#aside1 {grid-area: aside1; background: var(--color5); color: var(--color2);}
+#aside2 {grid-area: aside2; background: var(--color5); color: var(--color2);}
+footer {grid-area: footy; background: var(--color3);}
 
 nav ul {
 display: flex;
