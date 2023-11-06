@@ -72,7 +72,12 @@ footer {
 }
 
 header {grid-area: heady; background: var(--color5); color: var(--color2);}
-nav {grid-area: navvy; background: var(--color3);}
+nav {
+  grid-area: navvy;background: var(--color3);
+  display: flex; /* Use flexbox to arrange the links */
+  justify-content: space-around; /* Distribute the links horizontally */
+  align-items: center; /* Center the links vertically */
+}
 main {grid-area: mainy; background: var(--color4); max-height: 100%; color: var(--color2);}
 #aside1 {grid-area: aside1; background: var(--color5); color: var(--color2);}
 #aside2 {grid-area: aside2; background: var(--color5); color: var(--color2);}
