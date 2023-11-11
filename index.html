@@ -3,51 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ahmed Alshatti - CSCI 3150</title>
     <!-- Linking to the external CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header section with your name and page title -->
-    <header>
-        <h1>Ahmed Alshatti</h1>
-        <h2>CSCI 3150 - Universal Design</h2>
-    </header>
-    
-    <!-- Navigation menu -->
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#lab2">Lab 2</a>
-        <a href="#lab3">Lab 3</a>
-        <a href="#lab4">Lab 4</a>
-    </nav>
-    
-    <!-- About Me section -->
-    <section class="container" id="about">
-        <h2>About Me</h2>
-        <p>
-            You've reached Ahmed Alshatti!
-        </p>
-    </section>
+    <div class="container">
+        <a class="skip-link" href="#maincontent">Skip to main content</a>
+        <!-- Header section with your name and page title -->
+        <header class="header">
+            <h1>Ahmed Alshatti</h1>
+            <h2>CSCI 3150 - Universal Design</h2>
+        </header>
+        
+        <!-- Navigation menu -->
+        <nav class="nav">
+            <a href="#about">About Me</a>
+            <a href="#lab1">Lab 1</a>
+            <a href="#lab2">Lab 2</a>
+            <a href="#lab3">Lab 3</a>
+            <a href="#lab4">Lab 4</a>
+        </nav>
 
-    <!-- Assignment sections (placeholders for future assignments) -->
-    <section class="container" id="lab1">
-        <h2>Lab 1</h2>
-        <p><a href="index.html">Lab 1: Class Portal</a></p>
-    </section>
+        <main id="maincontent">
+            <!-- About Me section -->
+            <section class="main" id="about">
+                <h2>About Me</h2>
+                <img src="img/Untitled-1.jpg" alt="Ahmed Alshatti">
+                <p>
+                    Hello! I'm Ahmed Alshatti, a passionate computer science student hailing from the vibrant city of Kuwait and currently pursuing my education at CU Boulder. While my academic pursuits keep me engaged with the fascinating world of technology, my heart lies in the vast realm of art in all its diverse forms.
+                </p>
+                <p>
+                    Beyond coding and algorithms, I find joy in the expressive melodies of music, the vivid strokes of a paintbrush, the intricacies of graphic design, the delights of culinary arts, the allure of perfumes, and the textures of fashion. I believe in the power of interdisciplinary creativity, allowing different forms of art to inspire and complement each other.
+                </p>
+                <p>
+                    As a university student, I am not only dedicated to my academic journey but also committed to exploring the intersections of technology and art. Join me on this exciting adventure as I navigate the fascinating blend of code and creativity, striving to make a meaningful impact in both the digital and artistic realms.
+                </p>
+            </section>
 
-    <section class="container" id="lab2">
-        <h2>Lab 2</h2>
-        <p><a href="second-lab.html">Lab 2: Coding & Posting a Web Page - The Basics</a></p>
-    </section>
+            <!-- Lab sections -->
+            <section class="lab1" id="lab1">
+                <h2>Lab 1</h2>
+                <p><a href="index.html">Lab 1: Class Portal</a></p>
+            </section>
 
-    <section class="container" id="assignment2">
-        <h2>Lab 3</h2>
-        <p><a href="third-lab.html">Lab 3: Tables, Forms, Tabbed Browsing, and Screen Reading</a></p>
-    </section>
+            <section class="lab2" id="lab2">
+                <h2>Lab 2</h2>
+                <p><a href="second-lab.html">Lab 2: Coding & Posting a Web Page - The Basics</a></p>
+            </section>
 
-    <section class="container" id="assignment3">
-        <h2>Lab 4</h2>
-        <p><a href="fourth-lab.html">Lab 4: Accessible CSS Layout</a></p>
-    </section>
+            <section class="lab3" id="lab3">
+                <h2>Lab 3</h2>
+                <p><a href="third-lab.html">Lab 3: Tables, Forms, Tabbed Browsing, and Screen Reading</a></p>
+            </section>
+
+            <section class="lab4" id="lab4">
+                <h2>Lab 4</h2>
+                <p><a href="fourth-lab.html">Lab 4: Accessible CSS Layout</a></p>
+            </section>
+
+            <footer class="footer">
+                <small> designed by me for EVERYBODY</small>
+            </footer>
+        </main>
+    </div>
 </body>
+</html>
