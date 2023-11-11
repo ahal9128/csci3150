@@ -1,37 +1,150 @@
-/* Resetting default styles and setting up some basic styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Onest&display=swap');
+
+:root {
+    --color1: #006898;
+    --color2: #fff;
+    --color3: #333;
+    --color4: #000;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Onest', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Grid container styles */
+.container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "skip-link"
+        "header"
+        "nav"
+        "main"
+        "lab1"
+        "lab2"
+        "lab3"
+        "lab4"
+        "footer";
+}
+
+#skip-link {grid-area: skip-link; background: var(--color2); color: var(--color4);}
+header {grid-area: heady; background:var(--color1); color: var(--color2);}
+nav {
+  grid-area: navvy;background: var(--color3); color: var(--color2);
+  display: flex; /* Use flexbox to arrange the links */
+  justify-content: space-around; /* Distribute the links horizontally */
+  align-items: center; /* Center the links vertically */
+}
+main {grid-area: mainy; background: var(--color2); max-height: 100%; color: var(--color4);}
+#lab1 {grid-area: lab1; background: var(--color2); color: var(--color4);}
+#lab2 {grid-area: lab2; background: var(--color2); color: var(--color4);}
+#lab3 {grid-area: lab3; background: var(--color2); color: var(--color4);}
+#lab4 {grid-area: lab4; background: var(--color2); color: var(--color4);}
+footer {grid-area: footy; background: var(--color3); color: var(--color2);}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+    
+nav ul li {
+    list-style: none
+}
+
+@media screen
+  and (min-width: 641px)
+  and (max-width: 900px)  {
+    .container {
+    grid-template-columns:
+    1fr;
+    grid-template-areas:
+        "skip-link"
+        "header"
+        "nav"
+        "main"
+        "lab1"
+        "lab2"
+        "lab3"
+        "lab4"
+        "footer";
+    }
+}
+
+@media screen
+and (max-width: 640px)  {
+    .container {
+    grid-template-columns:
+    1fr;
+    grid-template-areas:
+        "skip-link"
+        "header"
+        "nav"
+        "main"
+        "lab1"
+        "lab2"
+        "lab3"
+        "lab4"
+        "footer";
+    }
+    nav ul {
+    flex-flow: column nowrap;
+    text-align: center;
+    }
+    nav ul li a {
+    display: block;;
+    }
+}
+
 /* Header styles */
 header {
-    background-color: #006898;
-    color: #fff;
+    grid-area: header;
     text-align: center;
     padding: 20px;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'DM Serif Display', serif;
+}
+
 /* Navigation menu styles */
 nav {
-    background-color: #333;
-    color: #fff;
+    grid-area: nav;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 20px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-/* Container styles for sections */
-.container {
+/* Main content area styles */
+main {
+    grid-area: main;
     padding: 20px;
+}
+
+/* About Me section styles */
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
 }
