@@ -165,7 +165,7 @@ transform: translateY(-100%);
 transition: transform 0.3s;
 }
 
-.nav{
+.sr-only {
     border: 0;
     clip: rect(0, 0, 0, 0);
     height: 1px;
@@ -174,7 +174,7 @@ transition: transform 0.3s;
     padding: 0;
     position: absolute;
     white-space: nowrap;
-    width: 1px;
+    width: 1px;  
 }
 
 footer {
