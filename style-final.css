@@ -160,3 +160,15 @@ footer {
 .breather {
     height: 20px; /* Adjust the height as needed for spacing */
 }
+
+.image-container {
+    text-align: center;
+    grid-row: span 2; /* Make the image span two rows */
+}
+
+.image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: 20px 0;
+}
