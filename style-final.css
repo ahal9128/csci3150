@@ -38,10 +38,6 @@ nav {
   align-items: center; /* Center the links vertically */
 }
 main {grid-area: mainy; background: var(--color2); max-height: 100%; color: var(--color4);}
-#lab1 {grid-area: lab1; background: var(--color2); color: var(--color4);}
-#lab2 {grid-area: lab2; background: var(--color2); color: var(--color4);}
-#lab3 {grid-area: lab3; background: var(--color2); color: var(--color4);}
-#lab4 {grid-area: lab4; background: var(--color2); color: var(--color4);}
 footer {grid-area: footy; background: var(--color3); color: var(--color2);}
 
 nav ul {
@@ -125,14 +121,6 @@ nav a:hover {
 main {
     grid-area: main;
     padding: 20px;
-}
-
-/* About Me section styles */
-#about img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
 }
 
 .skip-link {
