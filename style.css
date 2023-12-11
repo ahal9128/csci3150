@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Onest&display=swap');
 
 :root {
-    --color1: #006898;
+    --color1: #000;
     --color2: #fff;
-    --color3: #333;
+    --color3: #000;
     --color4: #000;
 }
 
@@ -26,6 +26,7 @@ body {
         "header"
         "nav"
         "main"
+        "project"
         "lab1"
         "lab2"
         "lab3"
@@ -69,6 +70,7 @@ nav ul li {
         "header"
         "nav"
         "main"
+        "project"
         "lab1"
         "lab2"
         "lab3"
@@ -87,6 +89,7 @@ and (max-width: 640px)  {
         "header"
         "nav"
         "main"
+        "project"
         "lab1"
         "lab2"
         "lab3"
@@ -145,6 +148,13 @@ main {
     height: auto;
     display: block;
     margin: auto;
+}
+
+#project img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 15px; /* Adjust the margin as needed */
 }
 
 .skip-link {
